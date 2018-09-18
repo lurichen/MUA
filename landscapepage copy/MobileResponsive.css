@@ -1,6 +1,7 @@
 html body {
 	margin: 0;
 	padding: 0;
+	height: 100%;
 }
 
 h1 {
@@ -28,14 +29,14 @@ h2 {
 #contraseña {
 	height: 50px;
 	width: 400px;
-	font-size: 20px;
+	font-size: 15px;
 	margin: 15px;
 }
 
 #correoEléctronico {
 	height: 50px;
 	width: 400px;
-	font-size: 20px;
+	font-size: 15px;
 }
 
 .iniciar {
@@ -67,31 +68,40 @@ a {
 }
 
 .muaImagen {
-  background: url("original.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url(./images/formobile.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  position: relative;
-  max-width: 100%;
-  height: 666px;
+  height: auto;
 }
 
-/*.muaImagen .loginBox {
-	position: absolute;
+.muaImagen .loginBox {
+	/*position: absolute;*/
 	top: 20%;
 	right: 30%;
-	overflow: hidden;*/
+	overflow: hidden;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 768px) {
 	.muaImagen {
-		background: url("small.jpg");
+		background: url("./images/fortablet.png") no-repeat center center fixed;
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		height: auto;
 	}
 }
 
 @media screen and (min-width: 1024px) {
 	.muaImagen {
-		height: 768px;
+		background: url("./images/fortablet.png") no-repeat center center fixed;
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		height: auto;
 	}
 
 	h1 {
@@ -105,7 +115,7 @@ a {
 	}
 }
 
-@media screen and {
+/*@media screen and {
 	.muaImagen {
 		background: url("large.jpg");
 		height: 1160px;
