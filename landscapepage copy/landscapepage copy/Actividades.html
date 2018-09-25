@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Title used by search engines for ranking and by browsers to keep track of tabs -->
+	<title>Lista de Actividades</title>
+	<!-- links the html and css file together. Without this, the CSS won't be applied to the webpage. -->
+	<link rel="stylesheet" href="styleactividades.css">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+<script>
+	function display()
+{
+	let col=document.getElementById("demo");
+	col.style.color="#556B2F";
+}
+</script>
+</head>
+<body>
+	<h1>Una mujer a la vez...</h1>
+		<h2>Actividades</h2>
+			<div class="dropdown">
+			<button onclick="myFunction()" class="dropbtn">Reuniones</button>
+				<div id="myDropdown" class="dropdown-content">
+					<a href="#generales-sanfrancisco">Generales - San Francisco</a>
+					<a href="#generales-oakland">Generales - Oakland</a>
+					<a href="#generales-unioncity">Generales - Union City</a>
+				</div>
+			</div>
+
+			<h3><button class="dropbtn"><span>Talleres </span></button></h3>
+			<h3><button class="dropbtn"><span>Entrenamientos </span></button></h3>
+			<h3><button class="dropbtn"><span>Alcance </span></button></h3>
+			<h3><button class="dropbtn"><span>Eventos </span></button></h3>
+			<h3><button class="dropbtn"><span>Presentaciones </span></button></h3>
+			<h3><button class="dropbtn"><span>Comités </span></button></h3>
+	<div class="muaLogo">
+		<img src="images/muaLogo.png"/>
+	</div>
+
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+/*Removes any prexisting padding or marginal space from the html and body elements.*/
+
+html body {
+	margin: 0;
+	padding: 0;
+	/*Remove this background-color! It is here to make sure that the css and html are linked.*/
+/*background: #a8c0ff;
+background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);
+background: linear-gradient(to right, #3f2b96, #a8c0ff); */
+}
+
+/*Remove this h1 Rule! */
+
+h1 {
+	text-align: center;
+	padding-top: 5px;
+	color: #ffffff8c;
+	font-size: 80px;
+	font-family: 'Indie Flower', cursive;
+}
+
+h2 {
+	text-align: center;
+	color: white;
+	font-size: 40px;
+}
+
+.loginBox {
+	text-align: center;
+	color: white;
+	font-family: Calibri;
+	padding: 70px;
+}
+
+#contraseña {
+	height: 50px;
+	width: 400px;
+	font-size: 20px;
+	margin: 40px;
+}
+
+#correoEléctronico {
+	height: 50px;
+	width: 400px;
+	font-size: 20px;
+}
+
+.muaImagen {
+  /*background-image: url("https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/38845804_2229215177094986_2501831016994308096_o.jpg?_nc_cat=0&oh=d4037c0c7141804420be006d72d1394b&oe=5C06EC84");*/
+  background:  linear-gradient(to right, #2b205894, #1e1348a1),url("https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/38845804_2229215177094986_2501831016994308096_o.jpg?_nc_cat=0&oh=d4037c0c7141804420be006d72d1394b&oe=5C06EC84");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 1;
+  max-width: 100%;
+  height: auto;
+  /*max-height: 768px;
+  max-width: 1024px;*/
+}
+
+.iniciar {
+    background-color: #8777a5;
+    border-radius: 12px;
+    color: white;
+    padding: 24px 36px;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    margin: 40px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: Calibri;
+    vertical-align: middle;
+}
+
+.iniciar a:link {
+	text-decoration: none;
+}
+
+a {
+	color: white;
+}
+
+@media only screen and (min-width: 1024px) {
+	.muaImagen {
+		background: linear-gradient(to right, #2b205894, #1e1348a1),url("file:///Users/lurichenzheng/Desktop/Newrepo/landscapepage/muaportadaphone.jpg");
+		background-position: center;
+	  	background-repeat: no-repeat;
+	  	background-size: cover;
+	  	position: relative;
+		opacity: 1;
+  		max-width: 100%;
+  		height: auto;  
+}
+	}
+
+@media only screen and (max-width: 375px) {
+	.muaImagen {
+		background: linear-gradient(to right, #2b205894, #1e1348a1),url("muaportadatablet.jpg");								
+		background-position: center;
+	  	background-repeat: no-repeat;
+	  	background-size: cover;
+	  	position: relative;
+		opacity: 1;
+  		max-width: 100%;
+  		height: auto;  
+}
+	}
+
+/*@media (min-width: 375px) {
+	.muaImagen {
+
+	}
+}
+
+@media (min-width: 1024px) {
+	.muaImagen {
+		
+	}
+}*/
+
+
+
+
