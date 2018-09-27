@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+
+  <form name="myForm">
+<select id="cardtype" name="cards">
+<option value="">--- Please select ---</option>
+<option value="mastercard" selected="selected">Mastercard</option>
+<option value="maestro">Maestro</option>
+<option value="solo">Solo (UK only)</option>
+<option value="visaelectron">Visa Electron</option>
+<option value="visadebit">Visa Debit</option>
+</select><br />
+
+<input type="submit" name="submit" class="button" value="SUBMIT" onmouseover="validate()"></form>
+
+<script>
+function validate() {
+ if (document.myform.cards.value == "") {
+    alert("Please select a card type");
+    document.myForm.cards.focus();
+}
+</script>
+
+</body>
+
+</html>

@@ -18,12 +18,14 @@
 
 </head>
 <body>
+
+<form name="myForm" onsubmit="return validationForm()" method="post">
 	<h1>Una mujer a la vez...</h1>
 		<h2>Actividades</h2>
 			<div class="dropbtn">
-				<input type="button" onclick="myFunction()" class="dropbtn" value="Reuniones"/><hr/><br/>  
+				<input type="button" onclick="myFunction()" class="dropbtn" value="Reuniones"/><hr/>
 				<div id="myDiv">
-					<select id="mySelect">
+					<select id="buttonSelect">
 						<option value="0">Por favor, seleccione uno</option>
 						<option value="1">Generales - San Francisco</option>
 						<option value="2">Generales - San Oakland</option>
@@ -31,9 +33,9 @@
 					</select>
 				</div>
 			</div>
-
+<!--
 			<div class="dropbtn1">	
-				<input type="button" onclick="myFunction()" class="dropbtn" id="btnTest" value="Talleres"/><hr/><br/>
+				<input type="button" onclick="myFunction()" class="dropbtn" id="btnTest" value="Talleres"/><hr/>
 				<div id="myDiv">
 					<select id="mySelect">
 						<option value="0">Por favor, seleccione uno</option>
@@ -45,7 +47,7 @@
 			</div>
 
 			<div class="dropbtn2">	
-				<input type="button" onclick="myFunction()" class="dropbtn" id="btnTest" value="Entrenamientos"/><hr/><br/>
+				<input type="button" onclick="myFunction()" class="dropbtn" id="btnTest" value="Entrenamientos"/><hr/>
 				<div id="myDiv">
 					<select id="mySelect">
 						<option value="0">Por favor, seleccione uno</option>
@@ -57,7 +59,7 @@
 			</div>
 
 			<div class="dropbtn3">
-				<input type="button" onclick="myFunction()" class="dropbtn" id="btnTest" value="Alcance"/><hr/><br/>
+				<input type="button" onclick="myFunction()" class="dropbtn" id="btnTest" value="Alcance"/><hr/>
 				<div id="myDiv">
 					<select id="mySelect">
 						<option value="0">Por favor, seleccione uno</option>
@@ -69,7 +71,7 @@
 			</div>
 
 			<div class="dropbtn4">	
-				<input type="button" onclick="myFunction()" class="dropbtn" id="btnTest" value="Eventos"/><hr/><br/>
+				<input type="button" onclick="myFunction()" class="dropbtn" id="btnTest" value="Eventos"/><hr/>
 				<div id="myDiv">
 					<select id="mySelect">
 						<option value="0">Por favor, seleccione uno</option>
@@ -81,7 +83,7 @@
 			</div>
 
 			<div class="dropbtn5">
-				<input type="button" onclick="myFunction()" class="dropbtn" id="btnTest" value="Presentaciones"/><hr/><br/>
+				<input type="button" onclick="myFunction()" class="dropbtn" id="btnTest" value="Presentaciones"/><hr/>
 				<div id="myDiv">
 					<select id="mySelect">
 						<option value="0">Por favor, seleccione uno</option>
@@ -93,7 +95,7 @@
 			</div>
 
 			<div class="dropbtn6">
-				<input type="button" onclick="myFunction()" class="dropbtn" id="btnTest" value="Comites"/><hr/><br/>
+				<input type="button" onclick="myFunction()" class="dropbtn" id="btnTest" value="Comites"/><hr/>
 				<div id="myDiv">
 					<select id="mySelect">
 						<option value="0">Por favor, seleccione uno</option>
@@ -103,16 +105,17 @@
 					</select>
 				</div>
 			</div>
+//-->
 
 	<div class="muaLogo">
 		<img src="images/muaLogo.png"/>
 	</div>
 
 	<br>
-		<input type="button" class="btn" value="Siguente" id="btnSubmit" onclick="dropdownValidate()" />
+		<input type="submit" class="btn" value="Submit" id="btnSubmit">
 
 <script type="text/javascript" src="actividades.js"></script>
 
-
+</form>
 </body>
 </html>

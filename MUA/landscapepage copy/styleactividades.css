@@ -149,6 +149,13 @@ a:visited {
   font-size: 25px;
 }
 
+#buttonSelect {
+  font-family: Calibri;
+  background-color: #8777a5;
+  color: white;
+  font-size: 25px;
+}
+
 .btn {
 	display: block;
   border-radius: 4px;

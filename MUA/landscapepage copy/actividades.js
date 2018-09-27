@@ -23,21 +23,25 @@ document.getElementById("btnTest").addEventListener("click", function(){
   createSelect();
 });*/
 
-function dropdownValidate() {
-            var result = document.getElementById("mySelect").value;
-            if (result == "0") {
+function validationForm() {
+            var buttonSelect = document.getElementById("buttonSelect");
+            var chosenButton = buttonSelect.options[buttonSelect.selectedIndex].value;
+            if (chosenButton == 0) {
+              return false;
               alert("Por favor, seleccionar una actividad");
             else {
-              alert("Seleccionastes : " + result);
+              alert("Seleccionastes : " + chosenButton);
+              return true;
             }
-          }
+          };
+
 
 
 //Assign function name from html
-function myFunction() {
+//function myFunction() {
 
 //Take the id from html and let it equal to x
-var x = document.getElementById("myDiv");
+//var x = document.getElementById("myDiv");
 
 //else if statement to hide and show element 
 /*if (x.style.display === "block") {
@@ -51,5 +55,5 @@ var x = document.getElementById("myDiv");
   };*/
 
 //
-var y = document.querySelectorAll('.dropbtn');
-target.addEventListener()
+//var y = document.querySelectorAll('.dropbtn');
+//target.addEventListener()
