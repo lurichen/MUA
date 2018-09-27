@@ -1,0 +1,169 @@
+/*Removes any prexisting padding or marginal space from the html and body elements.*/
+
+html body {
+	margin: 0;
+	padding: 0;
+	/*Remove this background-color! It is here to make sure that the css and html are linked.*/
+	background-color: white;
+}
+
+/*Remove this h1 Rule! */
+
+h1 {
+	text-align: center;
+  padding-top: 10px;
+  color: black;
+  font-size: 40px;
+  font-family: 'Indie Flower', cursive;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  font-size: 35px;
+  padding-top: inherit;
+}
+
+.muaLogo {
+ position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .muaLogo {
+
+    }
+  }
+
+.dropbtn,
+.dropbtn1,
+.dropbtn2,
+.dropbtn3,
+.dropbtn4,
+.dropbtn5,
+.dropbtn6 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #8777a5;
+  border-style: solid;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px;
+  vertical-align: left;
+}
+
+/*.dropbtn,
+.dropbtn1 {
+	float: left;
+}
+
+.dropbtn2,
+.dropbtn3 {
+	float: center;
+}
+
+.dropbtn4,
+.dropbtn5 {
+	float: right;
+}
+
+.dropbtn6,
+.btn {
+	float: right;
+}*/
+
+.dropbtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.dropbtn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.dropbtn:hover span {
+  padding-right: 25px;
+}
+
+.dropbtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+a:visited {
+    color: white;
+ }
+
+ .dropbtn a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/*.buttonReuniones {
+  display: block;
+  border-radius: 4px;
+  background-color: #8777a5;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+    margin-left: 30px;
+  vertical-align: middle;
+}
+
+.dropdown {
+	float: left;
+}
+
+.dropdown-content {
+	left: 3;
+}*/
+
+#myDiv {
+  font-size: 20px;
+  color: black;
+}
+
+#mySelect {
+  font-family: Calibri;
+  background-color: #8777a5;
+  color: white;
+  font-size: 25px;
+}
+
+.btn {
+	display: block;
+  border-radius: 4px;
+  background-color: #708090;
+  border-style: dashed;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px;
+    margin-top: -120px;
+  vertical-align: left;
+  float: right;
+}
+

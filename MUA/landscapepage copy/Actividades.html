@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Title used by search engines for ranking and by browsers to keep track of tabs -->
+	<title>Lista de Actividades</title>
+	<!-- links the html and css file together. Without this, the CSS won't be applied to the webpage. -->
+	<link rel="stylesheet" href="styleactividades.css">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+<script>
+	function display()
+{
+	let col=document.getElementById("demo");
+	col.style.color="#556B2F";
+
+}
+</script>
+
+</head>
+<body>
+	<h1>Una mujer a la vez...</h1>
+		<h2>Actividades</h2>
+			<div class="dropbtn">
+				<input type="button" onclick="myFunction()" class="dropbtn" value="Reuniones"/><hr/><br/>  
+				<div id="myDiv">
+					<select id="mySelect">
+						<option value="0">Por favor, seleccione uno</option>
+						<option value="1">Generales - San Francisco</option>
+						<option value="2">Generales - San Oakland</option>
+						<option value="3">Generales - Union City</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="dropbtn1">	
+				<input type="button" onclick="myFunction()" class="dropbtn" id="btnTest" value="Talleres"/><hr/><br/>
+				<div id="myDiv">
+					<select id="mySelect">
+						<option value="0">Por favor, seleccione uno</option>
+						<option value="1">Taller de Recaudación</option>
+						<option value="2">Taller de CPR</option>
+						<option value="3">Taller de Cuidado de Niños</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="dropbtn2">	
+				<input type="button" onclick="myFunction()" class="dropbtn" id="btnTest" value="Entrenamientos"/><hr/><br/>
+				<div id="myDiv">
+					<select id="mySelect">
+						<option value="0">Por favor, seleccione uno</option>
+						<option value="1">Asalto Sexual</option>
+						<option value="2">Violencia Doméstica</option>
+						<option value="3">Liderazgo</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="dropbtn3">
+				<input type="button" onclick="myFunction()" class="dropbtn" id="btnTest" value="Alcance"/><hr/><br/>
+				<div id="myDiv">
+					<select id="mySelect">
+						<option value="0">Por favor, seleccione uno</option>
+						<option value="1">Conozca sus Derechos</option>
+						<option value="2">En la calle</option>
+						<option value="3">Otro</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="dropbtn4">	
+				<input type="button" onclick="myFunction()" class="dropbtn" id="btnTest" value="Eventos"/><hr/><br/>
+				<div id="myDiv">
+					<select id="mySelect">
+						<option value="0">Por favor, seleccione uno</option>
+						<option value="1">Sí se Puede</option>
+						<option value="2">El Río</option>
+						<option value="3">Marchas</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="dropbtn5">
+				<input type="button" onclick="myFunction()" class="dropbtn" id="btnTest" value="Presentaciones"/><hr/><br/>
+				<div id="myDiv">
+					<select id="mySelect">
+						<option value="0">Por favor, seleccione uno</option>
+						<option value="1">Consulados</option>
+						<option value="2">Universidad MUA</option>
+						<option value="3">Otro</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="dropbtn6">
+				<input type="button" onclick="myFunction()" class="dropbtn" id="btnTest" value="Comites"/><hr/><br/>
+				<div id="myDiv">
+					<select id="mySelect">
+						<option value="0">Por favor, seleccione uno</option>
+						<option value="1">Consejeras y Facilitadoras</option>
+						<option value="2">Raíces</option>
+						<option value="3">Recaudación</option>
+					</select>
+				</div>
+			</div>
+
+	<div class="muaLogo">
+		<img src="images/muaLogo.png"/>
+	</div>
+
+	<br>
+		<input type="button" class="btn" value="Siguente" id="btnSubmit" onclick="dropdownValidate()" />
+
+<script type="text/javascript" src="actividades.js"></script>
+
+
+</body>
+</html>
